@@ -6,27 +6,27 @@ import piano from '../assets/pictures/piano.jpg';
 export const picArr = [
   {
     pic: columns,
-    id: 1,
+    id: 'first',
     description: "НОВИНКА"
   },
   {
     pic: columns,
-    id: 2,
+    id: 'second',
     description: "НОВИНКА"
   },
   {
    pic: bridge,
-   id: 3,
+   id: 'third',
    description: "НОВИНКА"
   },
   {
     pic: church,
-    id: 4,
+    id: 'fourth',
     description: "КРУГЛЫЙ ГОД"
   },
   {
     pic: piano,
-    id: 5,
+    id: 'fifth',
     description: ""
   }
 

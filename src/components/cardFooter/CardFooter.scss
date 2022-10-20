@@ -1,0 +1,36 @@
+.cardFooter {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  max-width: 303px;
+  justify-content: space-between;
+
+
+  &-Price {
+
+    &Container {
+      vertical-align: center;
+      text-align: left;
+    }
+
+    &Number {
+      font-size: 30px;
+    }
+
+    &Img {
+      height: 23px;
+    }
+  }
+
+  &-ButtonDetailed {
+    width: 165px;
+    height: 44px;
+    background-color: #FED74B;
+    border: 0.5px solid #CBA500;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+
+}
+
+
