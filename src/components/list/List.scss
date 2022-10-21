@@ -1,15 +1,19 @@
 ul {
   text-align: left;
-  margin-block-start: 10px;
+  margin-block-start: 15px;
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 13px;
   list-style-position: outside;
+  list-style-type: none;
 }
 
 li {
-  list-style: none;
+  margin-bottom: 13px;
+  display: list-item;
+  list-style-position: outside;
+  list-style-type: none;
 }
 
 .list {
@@ -20,7 +24,7 @@ li {
   &-Text {
     font-size: 14px;
     line-height: 20px;
-    color: #4B4B4B
+    color: #4B4B4B;
   }
 
   &-Buttons {
@@ -30,5 +34,41 @@ li {
     margin-bottom: 35px;
     margin-left: 46px;
     align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  ul {
+    padding-inline-start: 0px;
+  }
+
+  li {
+    margin-bottom: 17px;
+  }
+
+  .list {
+     position: relative;
+
+    &-Img {
+      margin-right: 20px;
+    }
+
+    &-Text {
+      font-size: 18px;
+      line-height: 20px;
+      color: #4B4B4B;
+    }
+
+    &-Buttons {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      align-items: center;
+      bottom: -5px;
+      left: 290px;
+    }
   }
 }

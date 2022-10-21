@@ -3,11 +3,20 @@
   border-radius: 11px;
   width: 63px;
   height: 24px;
-  margin-left: 3px;
+  margin: 0 4px 0 2px;
   border: none;
   cursor: pointer;
 
   &:hover {
     background-color: #6BA6FF;
+    color: white;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Button {
+    width: 73px;
+    height: 28px;
+    font-size: 16px;
   }
 }

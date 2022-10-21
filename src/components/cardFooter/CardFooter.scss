@@ -30,7 +30,44 @@
     border-radius: 20px;
     font-size: 14px;
   }
+}
 
+@media (min-width: 1200px) {
+  .cardFooter {
+    float: left;
+    display: flex;
+    align-items: center;
+    max-width: 333px;
+    justify-content: space-between;
+    margin-top: 10px;
+
+
+    &-Price {
+
+      &Container {
+        vertical-align: center;
+        text-align: left;
+      }
+
+      &Number {
+        font-size: 36px;
+      }
+
+      &Img {
+        height: 26px;
+      }
+    }
+
+    &-ButtonDetailed {
+      width: 187px;
+      height: 52px;
+      background-color: #FED74B;
+      border: 0.5px solid #CBA500;
+      border-radius: 23px;
+      font-size: 18px;
+      margin-left: 60px;
+    }
+  }
 }
 
 

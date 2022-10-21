@@ -13,3 +13,11 @@
     color: #9E9E9E;
   }
 }
+
+@media (min-width: 1200px) {
+  .clock {
+    position: relative;
+    top: 80px;
+    }
+
+}

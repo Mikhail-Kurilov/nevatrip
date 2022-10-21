@@ -17,13 +17,13 @@ export const MainPage: React.FC = () => {
               return (
                   <div className="main-Card">
                       <figure className="main-CardContainer">
-                          <img className="main-CardInner" key={picture.id} src={picture.pic} alt="mainPic" />
+                          <img id={picture.id} className="main-CardInner" key={picture.id} src={picture.pic} alt="mainPic" />
                           <figcaption id={picture.id} className="main-CardDescription">{picture.description}</figcaption>
                       </figure>
-                      <div>
+                      <div className="main-Content">
                           <Clock />
                           <div className="main-Action">
-                              <span className="main-ActionWord">АКЦИЯ - </span><span className="main-ActionText">Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off </span><span className="main-ActionYear">2019</span>
+                              <span className="main-ActionWord">АКЦИЯ - </span><span className="main-ActionText">Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off </span><span className="main-ActionYear">2019</span><span className="main-Action2020">2020</span>
                           </div>
                           <List />
                           <CardFooter />
